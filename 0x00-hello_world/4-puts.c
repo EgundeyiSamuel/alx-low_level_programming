@@ -1,19 +1,15 @@
-/* 
- * File: 4-puts.c
- * Auth: Egundeyi Samuel O <sammylonii@icloud.com>
- * /
- 
 #include <stdio.h>
 
 /**
- * main - Prints "Programming is like building a multilingual
- *                puzzle, followed by a new line.
+ * main - Entry point
  *
- * Return: Always 0.
- */
+ * Description: A C program that prints with put function
+ *
+ * Return: Always 0 (Success)
+*/
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-
 	return (0);
 }
