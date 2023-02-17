@@ -3,13 +3,18 @@
 /**
  * main - Entry point
  *
- * Description: using sizeof to print the size of various types.
+ * Description: using sizeof to print the size of various computer types.
  *
  * Return: Always 0 (Succesful)
 */
 
 int main(void)
-{
+{ 
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	flow f;
 
 	/* sizeof evaluates the size of a variable */
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
