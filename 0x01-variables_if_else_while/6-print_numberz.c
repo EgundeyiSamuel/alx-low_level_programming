@@ -1,23 +1,26 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- * main - Entry point
+ * main - print single digit numbers
  *
- * Description: print a-z in reverse
+ * Desciption: print single digit numbers
  *
  * Return: Always 0 (Success)
-*/
+ */
 
 int main(void)
 {
-	char ch = 'z';
+	int i;
 
-	while (ch >= 'a')
+	i = 48;
+
+	while (i < 58)
 	{
-		putchar(ch);
-		--ch;
+		putchar(i);
+		i++;
 	}
-	putchar('\n');
+
+	putchar(10);
 
 	return (0);
 }
