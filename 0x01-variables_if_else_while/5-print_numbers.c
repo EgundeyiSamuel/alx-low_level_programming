@@ -8,9 +8,9 @@ int main(void)
 {
 	int single_no;
 
-	for (single_no = 0; single_no < 10; i++)
+	for (single_no = 0; single_no < 10; single_no++)
 	{
-	printf("%d", i);
+	printf("%d", single_no);
 	}
 	putchar('\n');
 	return (0);
