@@ -8,9 +8,9 @@ int main(void)
 	char lower_case = 'a';
 	char capslk = 'A';
 
-	while (lowercase <= 'z')
+	while (lower_case <= 'z')
 	{
-	putchar (lowercase);
+	putchar (lower_case);
 	lowercase++;
 	}
 	while (capslk <= 'Z')
