@@ -2,10 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Prints random numbers
- * Returns: Returns 0 (Suucess)
+ * main - Prints random numbers either positive or negative
+ *
+ * Return: Returns 0 (Suucess)
  */
-int main(void)
+int main(void) /* main - code for the program */
 {
 	int n;
 
