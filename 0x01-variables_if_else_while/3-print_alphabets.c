@@ -11,7 +11,7 @@ int main(void)
 	while (lower_case <= 'z')
 	{
 	putchar (lower_case);
-	lowercase++;
+	lower_case++;
 	}
 	while (capslk <= 'Z')
 	{
