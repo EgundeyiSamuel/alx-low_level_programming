@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-* print_aplhabet - Prints the alphabet from a-z
+* print_alphabet - Prints the alphabet from a-z
 * Return: Returs (0) Always
 */
 
-void print_alphabet(void)
+void print_alphabet(void) /*alphabet function*/
 {
 	char x;
 
