@@ -6,14 +6,16 @@
 
 int main(void)
 {
-	unsigned long int space_x = 1, space_y = 2, space_z;
+	unsigned long int space_x = 1;
+	unsigned long int space_y = 2;
 	int y;
+	unsigned long int space_z;
 
 	printf("%lu, ", space_x);
-	for (y = 1; y < 50; y++);
+	for (y = 1 ; y < 50 ; y++)
 	{
 		printf("%lu", space_y);
-		next = space_x + space_y;
+		space_z = space_x + space_y;
 		space_x = space_y;
 		space_y = space_z;
 		if (y != 49)
