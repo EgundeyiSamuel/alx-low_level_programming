@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* print_numbers - this prints numbers from 0 to 9
-* Return: Returns (0) Always
+*print_numbers - this prints numbers from 0 to 9
+*Return: Returns (0) Always
 */
 void print_numbers(void)
 {
@@ -13,5 +13,4 @@ void print_numbers(void)
 		_putchar(x);
 	}
 	_putchar('\n');
-	return (0);
 }
