@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
-  * _strncat  - the main function
+  * _strncat  - fuction that oncatenates two strings
   *
   * @n: Function parameter
   *
-  * @src: Function parameter
+  * @src: parameter
   *
-  * @dest: Function parammeter
+  * @dest: parammeter
   *
-  * Return: dest
+  * Return: Return's Dest
   */
 char *_strncat(char *dest, char *src, int n)
 {
