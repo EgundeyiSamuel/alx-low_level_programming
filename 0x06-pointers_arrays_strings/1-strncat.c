@@ -1,27 +1,33 @@
 #include "main.h"
+
 /**
- * _strncpy - copies a string
- * @dest: a pointer pointing to the destination arr
- * @src: a pointer pointing to the string to be copied
- * @n: the number of bytes
- * Return: a pointer to the destination string dest
- */
-char *_strncpy(char *dest, char *src, int n)
+  * _strncat  - the main function
+  *
+  * @n: Function parameter
+  *
+  * @src: Function parameter
+  *
+  * @dest: Function parammeter
+  *
+  * Return: dest
+  */
+char *_strncat(char *dest, char *src, int n)
 {
-	int i = 0;
+	int k, r;
 
-	while (i < n && src[i] != '\0')
+	k = 0;
+	r = 0;
+
+	while (dest[k] != '\0')
 	{
-	dest[i] = src[i];
-	i++;
+	k++;
 	}
-
-	while (i < n)
+	while (r < n && src[r] != '\0')
 	{
-	dest[i] = '\0';
-	i++;
+	dest[k] = src[r];
+	k++;
+	r++;
 	}
-
+	dest[k] = '\0';
 	return (dest);
-
 }
