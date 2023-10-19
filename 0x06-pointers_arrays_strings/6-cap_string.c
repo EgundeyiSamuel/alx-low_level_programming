@@ -25,12 +25,12 @@ char *cap_string(char *str)
 	str[i] == ',' || str[i] == ';' || str[i] == '.' ||
 	str[i] == '!' || str[i] == '?' || str[i] == '"' ||
 	str[i] == '(' || str[i] == ')' || str[i] == '{' || str[i] == '}')
-        {
+	{
 	cap_next = 1;
 	}
 
 	i++;
 	}
 
-	return str;
+	return (str);
 }
