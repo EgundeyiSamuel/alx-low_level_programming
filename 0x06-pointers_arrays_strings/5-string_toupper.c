@@ -1,5 +1,5 @@
 #include "main.h"
-
+i
 /**
  * string_toupper - Convert a string to uppercase.
  *
@@ -20,5 +20,5 @@ char *string_toupper(char *str)
 	i++;
 	}
 
-	return str;
+	return (str);
 }
