@@ -9,8 +9,7 @@
  * @s: The string to search in.
  * @c: The character to find.
  *
- * Return: A pointer to the first occurrence of the character `c` in `s`,
- * or NULL if `c` is not found.
+ * Return: A pointer to the first occurrence of the character `c` in `s`
  */
 char *_strchr(char *s, char c)
 {
