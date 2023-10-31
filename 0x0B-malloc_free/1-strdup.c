@@ -1,53 +1,43 @@
 #include <stdio.h>
-
+		
 #include <stdlib.h>
-
+		
 #include "main.h"
-
+		
 /**
-* _strdup - multiply by 2 to new memory space location
-* @str: char
-* Return: 0
-*/
-
+ * _strdup - duplicates to new memory space location	
+ * @str: char	
+ * Return: 0		
+ */
+		
 char *_strdup(char *str)
-
+		
 {
-
-char *aaa;
-
-int i, r = 0;
+	char *aaa;	
+	int i, r = 0;
 
 
+	if (str == NULL)
 
-if (str == NULL)
+		return (NULL);
 
-return (NULL);
+	i = 0;
 
-i = 0;
+	while (str[i] != '\0')
 
-while (str[i] != '\0')
+		i++;
 
-i++;
-
-
-
-aaa = malloc(sizeof(char) * (i + 1));
+	aaa = malloc(sizeof(char) * (i + 1));
 
 
 
-if (aaa == NULL)
+	if (aaa == NULL)
 
-return (NULL);
+		return (NULL);
 
+	for (r = 0; str[r]; r++)
+		aaa[r] = str[r];
 
-
-for (r = 0; str[r]; r++)
-
-aaa[r] = str[r];
-
-
-
-return (aaa);
+	return (aaa);
 
 }
