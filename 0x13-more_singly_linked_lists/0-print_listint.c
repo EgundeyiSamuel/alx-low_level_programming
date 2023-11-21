@@ -5,7 +5,7 @@
  * @h: pointer to head node of linked list
  *
  * Iterates through the list and prints each node's integer
- * Returns: number of nodes in linked list
+ * Return: Returns number of nodes in linked list
  */
 size_t print_listint(const listint_t *h)
 {
